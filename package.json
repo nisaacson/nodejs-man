@@ -1,15 +1,38 @@
 {
-  "name": "nodejs-docs",
+  "name": "nodejs-man",
   "version": "0.0.0",
   "description": "Open browser to node.js core documentation page",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "nodejs-man": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nisaacson",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "dependencies": {
     "open": "0.0.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nisaacson/nodejs-man.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nisaacson/nodejs-man/issues"
+  },
+  "homepage": "https://github.com/nisaacson/nodejs-man",
+  "keywords": [
+    "doc",
+    "docs",
+    "documentation",
+    "man",
+    "manual",
+    "core",
+    "api",
+    "lookup",
+    "search",
+    "query"
+  ]
 }
