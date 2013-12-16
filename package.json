@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-docs",
+  "version": "0.0.0",
+  "description": "Open browser to node.js core documentation page",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nisaacson",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "open": "0.0.4"
+  }
+}
